@@ -22,3 +22,23 @@ With a different text.
 2 + 2 + 2
 ```
 
+```{r}
+# just once for every repo ("git init")
+usethis::use_git()
+```
+```{r}
+# just once for every work with GitHub
+usethis::create_github_token()
+```
+
+```{r}
+# just once? for every repo?
+credentials::set_github_pat()
+```
+
+
+```{r}
+# create repo manually, then: "git remote add origin <URL>"
+usethis::use_github()
+```
+
