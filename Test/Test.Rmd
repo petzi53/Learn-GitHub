@@ -32,7 +32,7 @@ usethis::create_github_token()
 ```
 
 ```{r}
-# just once? for every repo?
+# just once for every repo?
 credentials::set_github_pat()
 ```
 
