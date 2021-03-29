@@ -41,4 +41,4 @@ credentials::set_github_pat()
 # create repo manually, then: "git remote add origin <URL>"
 usethis::use_github()
 ```
-
+This is another paragraph to learn what "Staged" mean!
